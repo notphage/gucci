@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SRC\framework.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\vtable.hpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\c_console.hpp">
+      <Filter>Source Files\Utilities\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\c_module.h">
+      <Filter>Source Files\Utilities\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\c_signaturescanner.hpp">
+      <Filter>Source Files\Utilities\Modules\PatternScan</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\c_address.h">
+      <Filter>Source Files\Utilities\Modules\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\c_crypto.hpp">
+      <Filter>Source Files\Utilities\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\angle.hpp">
+      <Filter>Source Files\Math\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\colour.hpp">
+      <Filter>Source Files\Math\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\matrix.hpp">
+      <Filter>Source Files\Math\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\vector.hpp">
+      <Filter>Source Files\Math\Containers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5215969d-0ef3-45e6-8ce4-815a205702f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{3d633eae-75a3-4f77-84e4-ab44421abfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{2e6a012c-d33e-4df4-9ffe-29bfaa5308be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Console">
+      <UniqueIdentifier>{ed268208-04b7-43fe-a39b-4d4a21b014c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Crypto">
+      <UniqueIdentifier>{b60b7721-9a30-4af8-b017-31c1031b7628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Modules">
+      <UniqueIdentifier>{66ae1f01-0309-4138-81bc-b23c79dfb4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Modules\PatternScan">
+      <UniqueIdentifier>{9fdea9eb-2c9d-40cb-afbc-11de3359f613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Modules\Address">
+      <UniqueIdentifier>{7fd73327-835b-4d41-b63d-1e54c812f497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Containers">
+      <UniqueIdentifier>{53d9c781-b1dc-4deb-b5ff-2deb3d1560cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\c_console.cpp">
+      <Filter>Source Files\Utilities\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\c_module.cpp">
+      <Filter>Source Files\Utilities\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\c_signaturescanner.cpp">
+      <Filter>Source Files\Utilities\Modules\PatternScan</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\c_address.cpp">
+      <Filter>Source Files\Utilities\Modules\Address</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7b4b2163-3b38-4b1c-b6c4-9e086ff05d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{8731e34f-96e0-434e-9d8c-59b528d75899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Interfaces">
+      <UniqueIdentifier>{b96973f0-d401-489b-a08d-6f178aa7727a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{7ea179e9-39ba-45b7-b7ba-81f58c5e2bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Structures">
+      <UniqueIdentifier>{a98b86aa-edee-4efa-a38b-0b33ea7fd631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hooks">
+      <UniqueIdentifier>{537b6630-8581-4ad1-9490-95f105a69d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK\Valve">
+      <UniqueIdentifier>{6d7cae59-b504-48cb-b69f-aedcccab7f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Networked">
+      <UniqueIdentifier>{1ef3be6d-e763-4561-9fd9-62ec99ba0e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hooks\Paint">
+      <UniqueIdentifier>{26595e43-84c5-4c32-bee1-6808acaea4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hooks\Paint\Menu">
+      <UniqueIdentifier>{bd9a2587-a4c0-40e1-bcca-e6b835b1da5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hooks\CreateMove">
+      <UniqueIdentifier>{c53db675-9f7a-4fd8-8ade-ec4b781e9876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hooks\CreateMove\Members">
+      <UniqueIdentifier>{379a6d78-6d8e-4d5a-8aa7-1b62f6f6d537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hooks\CreateMove\Members\Rage">
+      <UniqueIdentifier>{8d92c4e0-cafd-4e28-a9cd-26f793db4699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hooks\CreateMove\Members\Legit">
+      <UniqueIdentifier>{a2313944-365f-42e8-aef4-e2b57d187452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK\Math">
+      <UniqueIdentifier>{673ca3e5-7fac-49b3-a280-5f847d2f649e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_interfacescanner.hpp">
+      <Filter>Source Files\Game\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="c_globals.hpp">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="c_hookmanager.hpp">
+      <Filter>Source Files\Game\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooklist.hpp">
+      <Filter>Source Files\Game\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="interfacelist.hpp">
+      <Filter>Source Files\Game\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="baseentity.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.hpp">
+      <Filter>Source Files\SDK\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="c_netvarscanner.hpp">
+      <Filter>Source Files\Game\Networked</Filter>
+    </ClInclude>
+    <ClInclude Include="c_enginereturnvar.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_usercmd.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_baseentity.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_paintmanager.hpp">
+      <Filter>Source Files\Game\Hooks\Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="c_paintvisuals.hpp">
+      <Filter>Source Files\Game\Hooks\Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="c_paint.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_menu.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_base.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_window.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_label.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_tab_panel.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_tab_container.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_checkbox.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_slidebar.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_dropdown.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_group_box.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="c_globaldata.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_createmove.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove</Filter>
+    </ClInclude>
+    <ClInclude Include="c_trace.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="studiobox.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_baseweapon.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="baseweapon.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_predictionsystem.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="c_miscellaneous.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="c_md5.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_antiban.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="c_lagcompensation.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="c_ragebot.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members\Rage</Filter>
+    </ClInclude>
+    <ClInclude Include="c_resolver.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members\Rage</Filter>
+    </ClInclude>
+    <ClInclude Include="c_walkbot.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="view_setup.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_element_spectators.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_math.hpp">
+      <Filter>Source Files\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="c_autowall.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members\Rage</Filter>
+    </ClInclude>
+    <ClInclude Include="surfacedata.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="model_render.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_legitbot.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members\Legit</Filter>
+    </ClInclude>
+    <ClInclude Include="legitbot.hpp">
+      <Filter>Source Files\Game\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="c_movement.hpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="c_configurations.hpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="c_interfacescanner.cpp">
+      <Filter>Source Files\Game\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="entrypoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="c_globals.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="c_hookmanager.cpp">
+      <Filter>Source Files\Game\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooklist.cpp">
+      <Filter>Source Files\Game\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="dt_common.hpp">
+      <Filter>Source Files\SDK\Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="c_netvarscanner.cpp">
+      <Filter>Source Files\Game\Networked</Filter>
+    </ClCompile>
+    <ClCompile Include="c_paintmanager.cpp">
+      <Filter>Source Files\Game\Hooks\Paint</Filter>
+    </ClCompile>
+    <ClCompile Include="c_paintvisuals.cpp">
+      <Filter>Source Files\Game\Hooks\Paint</Filter>
+    </ClCompile>
+    <ClCompile Include="c_menu.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_base.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_window.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_label.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_tab_panel.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_tab_container.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_checkbox.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_slidebar.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_dropdown.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_group_box.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_createmove.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove</Filter>
+    </ClCompile>
+    <ClCompile Include="c_miscellaneous.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="c_predictionsystem.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="c_antiban.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="c_lagcompensation.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="c_ragebot.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="c_resolver.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="c_walkbot.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="c_element_spectators.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="c_math.cpp">
+      <Filter>Source Files\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="c_autowall.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="c_movement.cpp">
+      <Filter>Source Files\Game\Hooks\CreateMove\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="c_configurations.cpp">
+      <Filter>Source Files\Game\Hooks\Paint\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
